@@ -1,0 +1,317 @@
+<html>
+
+   <head>
+  
+
+      <meta charset="UTF-8" />
+      <title>Red Ball Pizza</title>
+     <style>
+         
+header, section, aside, footer, nav * {
+	display: block;
+}
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: red;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#container {
+	width: 1000px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	background-color: white;
+	background-image: url(https://i.imgur.com/fFMiPDD.png);
+	background-position: top left;
+	background-repeat: repeat-y;}
+
+
+
+header {
+	background-color: white;
+	height: 100px
+}
+
+nav.horizontal {
+	height: 70px;
+	width: 100%;
+	background-color: white;
+}
+
+nav.horizontal li {
+	background-color: white;
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	width: 180px;
+	display: block;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+nav.horizontal li a {
+	display: block;
+	background-color: red;
+	color: white;
+	-moz-border-radius: 30px 25px;
+	-webkit-border-radius: 30px 25px;
+	border-radius: 30px 25px;
+	text-decoration: none;
+}
+nav.horizontal li a:hover {
+	background-color: rgb(255, 101, 101);
+	color: black;
+	}
+
+nav.vertical {
+	clear: left;
+	float: left;
+	width: 200px;
+}
+
+nav.vertical li {
+	list-style-type: none;
+	text-indent: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+nav.vertical li a {
+	color: white;
+	text-decoration: none;
+}
+
+nav.vertical li a:hover {
+	color: black;
+	}
+
+#main {
+	background-color: rgb(255, 211, 211);
+	float: left;
+	width: 600px;
+}
+
+
+#main > p {
+	font-size: 20px;
+	margin: 15px;
+}
+
+#main img {
+	float: right;
+	margin: 15px;
+	width: 350px;
+	-moz-border-radius-bottomleft: 350px;
+	-webkit-border-bottom-left-radius: 350px;
+	border-bottom-left-radius: 350px;
+}
+
+.coupon {
+	border: black 5px dashed;
+	float: left;
+	width: 170px;
+	height: 150px;
+	margin: 20px 10px;
+	background-image: url(https://i.imgur.com/eRPemVe.png), url(https://i.imgur.com/irrlNe9.png);
+	background-position: center, bottom right;
+	background-repeat: no-repeat;
+	background-color: white;
+} 
+
+
+.coupon h1 {
+	color: white;
+	background-color: rgb(192, 0, 0);
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-align: center;
+	height: 25px;
+	display: small-caps;
+}
+
+.coupon p {
+	font-size: 14px;
+	text-align: center;
+	margin: 5px;
+}
+
+aside {
+	float: left;
+	width: 200px;
+}
+
+aside h1 {
+	color: rgb(192, 0, 0);
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-align: center;
+}
+
+aside li {
+	background-color: rgb(255, 135, 135);
+	border-radius: 5px;
+	color: black;
+	list-style-type: maker;
+	margin: 10px;
+	padding: 5px;
+	list-style-type: none;
+}
+
+
+footer {
+	clear: left;
+	margin-left: 200px;
+}	
+
+
+footer address {
+	border-top: 1px solid red;
+	color: red;
+	font-size: 10px;
+	font-style: normal;
+	text-align: center;
+	margin: 25px;
+	padding-bottom: 20px;
+}
+     </style>
+   </head>
+
+   <body>
+      <div id="container">
+         <header><img src="https://i.imgur.com/z623Aa9.png" alt="Red Ball Pizza" /></header>
+
+         <nav class="horizontal">
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Menu</a></li>
+               <li><a href="#">Locations</a></li>
+               <li><a href="#">Catering</a></li>
+               <li><a href="#">About Us</a></li>
+            </ul>
+         </nav>
+
+         <nav class="vertical">
+            <ul>
+               <li><a href="#">Pizza</a></li>
+               <li><a href="#">Salad</a></li>
+               <li><a href="#">Pasta</a></li>
+               <li><a href="#">Sandwiches</a></li>
+               <li><a href="#">Appetizers</a></li>
+               <li><a href="#">Pocket Pizzas</a></li>
+               <li><a href="#">Fish &amp; Shrimp</a></li>
+               <li><a href="#">Chicken &amp; Wings</a></li>
+               <li><a href="#">Beverages</a></li>
+               <li><a href="#">Dessert</a></li>
+               <li><a href="#">Catering</a></li>
+               <li><a href="#">Download Menu</a></li>
+               <li><a href="#">Catering Menu</a></li>
+            </ul>
+         </nav>
+
+         <section id="main">
+            <img src="https://i.imgur.com/2mWtz6h.png" alt="" />
+            <p>At Red Ball Pizza, we want to satisfy every appetite. That's 
+               why our menu contains a variety of different items. With 
+               so many choices, everyone's favorites are available!
+            </p>
+            <p>
+               Red Ball Pizza is NOT a franchise, a chain, or a corporation. 
+               It is 100% locally owned and operated. Red Ball Pizza is 
+               devoted to providing the highest quality and the best service 
+               possible. Our only goal is to provide you with a great 
+               pizza &#8230; EVERY TIME!
+            </p>
+
+            <div class="coupon">
+               <h1>Classic Combo</h1>
+               <p>16" 1-Topping Pizza
+                  &amp; a 2-Liter of Your Choice
+                  For Only $14.99
+               </p>
+               <p>Expires 3/14</p>
+            </div>
+            <div class="coupon">
+               <h1>Pizza &amp; Stix</h1>
+               <p>16" Specialty Pizza
+                  Reg. Cheese Stix &amp; a 2-Liter
+                  For Only $21.99
+               </p>
+               <p>Expires 3/14</p>
+            </div>
+            <div class="coupon">
+               <h1>1/2 Price</h1>
+               <p>Buy any 16" Specialty Pizza
+                  at Reg. Price &amp; Get a 2nd
+                  Pizza For Half Price
+               </p>
+               <p>Expires 3/14</p>
+            </div>
+            <div class="coupon">
+               <h1>Pizza &amp; Wings</h1>
+               <p>14" 2-Topping Pizza 
+                  &amp; 12 Wings
+                  For Only $15.99
+               </p>
+               <p>Expires 3/31</p>
+            </div>
+            <div class="coupon">
+               <h1>$3.00 Off</h1>
+               <p>Get $3.00 Off
+                  any 16" Pizza at
+                  Menu Price
+               </p>
+               <p>Expires 3/31</p>
+            </div>
+            <div class="coupon">
+               <h1>Sub Dinner</h1>
+               <p>1 Toasted Sub &amp; Chips
+                  &amp; 1 20oz Soda
+                  For Only $6.99
+               </p>
+               <p>Expires 3/31</p>
+            </div>
+         </section>
+
+         <aside>
+            <h1>Pizza Pizzazz</h1>
+            <ul>
+               <li>93% of Americans eat pizza at least once a month.</li>
+               <li>Mozzarella was originally made from the milk of Indian 
+                   water buffalo in the 7th century.</li>
+               <li>75 acres of cheese is eaten every day.</li>
+               <li>23 pounds of cheese is eaten every year by the average 
+                   person.</li>
+               <li>The tomato was brought back to Italy by Spaniards returning 
+                   from Mexico in the 16th century.</li>
+               <li>The busiest night for take-out pizza orders is                    Halloween.</li>
+               <li>The first pizzeria opened in 1830 in Naples, Italy and is                    still operating today. We've been open since 1982 and 
+                   we're happy to serve you today and tomorrow!</li>
+            </ul>
+         </aside>
+
+         <footer>
+            <address>
+               Red Ball Pizza &bull;
+               811 Beach Drive &bull;
+               Ormond Beach, FL  32175 &bull;
+               (386) 555 - 7499 
+            </address>
+         </footer>
+
+      </div>
+
+   </body>
+
+</html>
